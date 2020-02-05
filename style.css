@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+  
+  }
+
+  .nav {
+    background: gold;
+  }
+
+  nav ul {
+    
+    margin-top: 25px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    width: 15vw;
+    float: right;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+
+  }
+
+
+  .gmail {
+    text-decoration: none;
+    color: black;
+   
+  }
+  .images {
+    text-decoration: none;
+    color: black;
+    
+  }
+  .nav img {
+    
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+  }
+
+  
+  .btn{
+    background: #5232a8 !important;
+    height: 35px !important;
+    width: 35px !important;
+    border-radius: 50% !important;
+    color: white !important;
+    justify-content: center;
+    margin-top: -10px !important;
+    
+  }
+  .main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    place-items: center;
+   
+  
+  }
+ 
+  .search-bar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 45px;
+    width: 550px;
+    border: 0.3px solid gray;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px 1px rgb(232, 232, 232);
+  }
+
+  button {
+    background: #f5f5f5;
+    color: gray;
+    border-radius: 2px;
+    height: 40px;
+    width: 150px;
+    font-size: 13px;
+  }
+  button:hover {
+    border: 1px solid black;
+    color: black;
+  }
+
+  input:focus{
+      outline: none;
+  }
+
+  /* footer */
