@@ -19,6 +19,7 @@ nav ul {
   font-family: arial, sans-serif;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.87);
+  margin-right: 25px;
 }
 
 .gmail {
@@ -30,11 +31,17 @@ nav ul {
   color: black;
 }
 .nav img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-left: 10px;
   box-sizing: border-box;
   border-radius: 2px;
+
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .btn {
@@ -52,7 +59,7 @@ nav ul {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  height: 85vh;
+  height: 75vh;
   width: 100vw;
   color: #f2f2f2;
   /* position: absolute;
@@ -67,23 +74,29 @@ nav ul {
   margin-top: 30px;
   margin-bottom: 30px;
   height: 45px;
-  width: 550px;
-  border: 0.3px solid gray;
+  width: 450px;
+  border: 0.5px solid rgb(222, 221, 221);
   border-radius: 25px;
-  box-shadow: 1px 1px 5px 1px rgb(232, 232, 232);
+  
+  font-size: 15px;
+  text-align: left;
+  padding-left: 30px;
 }
 
 button {
   background: #f5f5f5;
   color: gray;
-  border-radius: 2px;
-  height: 40px;
-  width: 150px;
+  border-radius: 5px;
+  height: 35px;
+  width: auto;
   font-size: 13px;
+  border: 0.2px solid rgb(182, 178, 178);
+  margin-left: 10px;
 }
 button:hover {
-  border: 1px solid rgb(182, 178, 178);
+  border: 0.5px solid rgb(182, 178, 178);
   color: black;
+  cursor: pointer;
 }
 
 input:focus {
@@ -105,6 +118,13 @@ input:focus {
 }
 
 /* --------footer-------- */
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
 .footer-1 {
   background: #f2f2f2;
   height: 5vh;
@@ -141,7 +161,7 @@ input:focus {
 }
 
 .footer-2-2{
-margin-left: 50rem;
+margin-left: 53rem;
 margin-top: 10px;
 font-size: 13px;
 color: rgba(0,0,0,.54);
